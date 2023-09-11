@@ -30,7 +30,10 @@ int main()
 
 	double b[3] = {0,0,1};
 	double e[3] = {0,2,2};
+
 	int L = DEPTH*DEPTH*DEPTH;
+
+	char c;
 	
 	CreateField(EMF,b,e,L);
 
