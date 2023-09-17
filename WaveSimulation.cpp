@@ -2,7 +2,10 @@
 #include <vector>
 #include "LineFunctions.h"
 
-void IterateWave(std::ve)
+void IterateWave(std::vector<GridBlockVector>& Grid, std::vector<DataVector>& Data)
+{
+	// Solve wave function u_xx = -k^2 * u_tt on compressed line-space
+}
 
 int main()
 {
